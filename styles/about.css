@@ -1,0 +1,95 @@
+.about {
+    background-color: white;
+    width: 100%;
+    height: 81%;
+    text-align: center;
+}
+
+.a-text-1 {
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: "AlexBrush", sans-serif;
+}
+.a-text-2 {
+    margin-top: -2%;
+    font-size: 30px;
+    font-family: "Montserrat";  
+}
+
+.a-line {
+    background-color: #F27A7A;
+    width: 5%;
+    height: 0.5%;
+    margin-left: 47.5%;
+}
+
+.a-text-3 {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3%;
+    font-family: "Montserrat";  
+}
+
+.a-content {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.a-content div {
+    display: inline-block;
+    margin: 2%;
+}
+
+.a-content img:hover {
+    animation: anim2 0.5s forwards;
+}
+
+@keyframes anim2 {
+    0% {
+        margin-right: 0;
+        margin-bottom: 0;
+        box-shadow: 0;
+    }
+    100%{
+        margin-right: 3%;
+        margin-bottom: 3%;
+        box-shadow: 0 0 30px rgba(0,0,0,1);
+    }
+}
+
+@media (min-width: 1456px) and (max-width: 1670px) {
+
+    .about {
+        height: 100%;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1455px) {
+    .about {
+        height: 100%;
+    }
+}
+
+
+@media (min-width: 1027px) and (max-width: 1249px) {
+    .about {
+        height: 140%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1026px) {
+    .about {
+        height: 140%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 699px) {
+    .about {
+        height: 140%;
+    }
+
+    .a-content img{
+        width: 100%;
+    }
+}
+

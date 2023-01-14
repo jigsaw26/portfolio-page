@@ -1,0 +1,238 @@
+.focus {
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 83%;
+    text-align: center;
+    margin-top: -2%;
+}
+
+.f-text-1 {
+    position: relative;
+    width: 30%;
+    top: 15%;
+    left: 35%;
+    text-align: center;
+
+}
+
+.f-text-1 h1 {
+    font-family: "Montserrat";  
+    font-size: 50px;
+}
+
+.f-text-1 p {
+    font-family: "Montserrat";  
+    font-size: 18px;
+}
+
+.f-content {
+    width: 70%;
+    height: 40%;
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+
+.f-content div {
+    background-color: white;
+    width: 23%;
+    height: 100%;
+    display: inline-block;
+    margin: 0.5%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    vertical-align: top;
+   
+}
+
+.f-content div:hover {
+
+    animation: anim 0.5s forwards;
+}
+
+@keyframes anim {
+    0% {
+        width: 23%;
+        height: 100%;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+    100% {
+        width: 25%;
+        height: 102%;
+        border-bottom: 5px solid white;
+        box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    }
+    
+}
+
+.f-content img {
+    margin-top: 15%;
+}
+
+.f-content h1 {
+    margin-top: 5%;
+    font-family: "Montserrat";  
+}
+
+.f-content p {
+    font-family: "Montserrat";  
+    font-size: 16px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.content-div-1 {
+    border-bottom: 5px solid #FC5437;
+   
+}
+
+
+.content-div-2 {
+    border-bottom: 5px solid #29C28D;
+}
+
+.content-div-3 {
+    border-bottom: 5px solid #AC72F6;
+}
+
+.content-div-4 {
+    border-bottom: 5px solid #FFB354;
+}
+
+@media (min-width: 1456px) and (max-width: 1670px) {
+    .focus {
+        margin-top: -5%;
+    }
+}
+
+@media (min-width: 1250px) and (max-width: 1455px) { 
+    .focus {
+        margin-top: -5%;
+    }
+}
+
+
+@media (min-width: 1027px) and (max-width: 1249px) {
+    .focus {
+        margin-top: -5%;
+        height: 120%;
+    }
+
+    .f-text-1 {
+        width: 60%;
+        left: 20%;
+    }
+
+    .f-content div {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+
+       
+    }
+
+    .f-content div:hover {
+
+        animation: anim 0.5s forwards;
+    }
+    
+    @keyframes anim {
+        0% {
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        100% {
+            width: 320px;
+            height: 320px;
+            border-bottom: 5px solid white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+        
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1026px) {
+
+    .focus {
+        margin-top: -5%;
+        height: 200%;
+    }
+
+    .f-text-1 {
+        width: 60%;
+        left: 20%;
+    }
+
+    .f-content div {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+
+       
+    }
+
+    .f-content div:hover {
+
+        animation: anim 0.5s forwards;
+    }
+    
+    @keyframes anim {
+        0% {
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        100% {
+            width: 320px;
+            height: 320px;
+            border-bottom: 5px solid white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+        
+    }
+}
+
+@media (min-width: 350px) and (max-width: 699px) {
+
+    .focus {
+        margin-top: -10%;
+        height: 210%;
+    }
+
+    .f-text-1 {
+        width: 60%;
+        left: 20%;
+    }
+
+    .f-content div {
+        background-color: white;
+        width: 200px;
+        height: 300px;
+        display: inline-block;
+
+       
+    }
+
+    .f-content div:hover {
+
+        animation: anim 0.5s forwards;
+    }
+    
+    @keyframes anim {
+        0% {
+            width: 200px;
+            height: 300px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        100% {
+            width: 220px;
+            height: 320px;
+            border-bottom: 5px solid white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+        
+    }
+}
+

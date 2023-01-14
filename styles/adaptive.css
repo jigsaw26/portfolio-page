@@ -1,0 +1,639 @@
+@media (min-width: 1456px) and (max-width: 1670px) {
+
+    .about {
+        height: 100%;
+    }
+    
+    .portfolio {
+        height: 190%;
+    }
+    .focus {
+        margin-top: -5%;
+    }
+    .o-maintext-1 {
+
+        margin-top: 35%;
+       
+    }
+
+    .o-social-link {
+        right: -55%;
+    }
+
+    .o-maintext-2 {
+       margin-top: 35%;
+    }
+
+    .o-maintext-3 {
+        margin-top: 35%;
+     }
+
+     .o-maintext-4 {
+        margin-top: 35%;
+     }
+
+
+}
+
+@media (min-width: 1250px) and (max-width: 1455px) {
+
+
+    .o-maintext-1 {
+
+        margin-top: 55%;
+       
+    }
+
+    .o-maintext-2 {
+
+        margin-top: 55%;
+       
+    }
+
+    .o-maintext-3 {
+
+        margin-top: 55%;
+       
+    }
+
+    .o-maintext-4 {
+
+        margin-top: 55%;
+       
+    }
+
+    .o-social-link {
+        right: -55%;
+    }
+
+    .about {
+        height: 100%;
+    }
+    
+    .portfolio {
+        height: 190%;
+    }
+
+    .menu_nav {
+        display: none;
+    }
+    .main-info div {
+        width: 25%;
+
+    }
+    
+    .our_team {
+        height: 150%;
+    }
+    .o-content {
+        height: 32%;
+    }
+    .focus {
+        margin-top: -5%;
+    }
+
+    .hamburger-menu {
+        visibility: visible;
+    }
+}
+
+
+@media (min-width: 1027px) and (max-width: 1249px) {
+
+    .o-maintext-1 {
+
+        margin-top: 200%;
+        left: -70%;
+    }
+
+    .o-maintext-2 {
+
+        margin-top: 200%;
+        left: -125%;
+       
+    }
+
+    .o-maintext-3 {
+        margin-top: 200%;
+        left: -230%;
+    }
+
+    .o-maintext-4 {
+        margin-top: 45%;
+        left: -125%;
+    }
+    
+    .o-social-link {
+        right: -60%;
+    }
+    .hamburger-menu {
+        visibility: visible;
+    }
+
+    .menu_nav {
+        display: none;
+    }
+
+    .tagline {
+        width: 80%;
+        left: 10%;
+    }
+
+    .main-btn {
+        left: 35%;
+    }
+    .main-btn div {
+        width: 30%;   
+    }
+
+    .main-info {
+        width: 100%;
+        left: 0;
+    }
+    .main-info div {
+        width: 25%;
+
+    }
+
+    .focus {
+        margin-top: -5%;
+        height: 120%;
+    }
+
+    .f-text-1 {
+        width: 60%;
+        left: 20%;
+    }
+
+    .f-content div {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+
+       
+    }
+
+    .f-content div:hover {
+
+        animation: anim 0.5s forwards;
+    }
+    
+    @keyframes anim {
+        0% {
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        100% {
+            width: 320px;
+            height: 320px;
+            border-bottom: 5px solid white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+        
+    }
+
+    .about {
+        height: 140%;
+    }
+
+    .e-img-1 img {
+        margin-top: 10%;
+    }
+
+    .portfolio {
+        height: 200%;
+    }
+
+    .o-content .o-content-1, .o-content-2, .o-content-3, .o-content-4 {
+        width: 250px;
+        height: 370px;
+
+    }
+
+    .p-content {
+        margin-top: 10%;
+    }
+
+    .o-content {
+        margin-top: 20%;
+    }
+
+    .our_team {
+        height: 200%;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 1026px) {
+
+    .for-info {
+        width: 80%;
+        height: 25%;
+        background-color: white;
+        box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+        position: relative;
+        left: 10%;
+        top: 0%;
+    }
+    
+    .o-maintext-1 {
+
+        margin-top: 200%;
+        left: -70%;
+    }
+
+    .o-maintext-1 img {
+        position: relative;
+        right: 0%;
+        top: 0%;
+    }
+
+    .o-line {
+        visibility: hidden;
+    }
+
+    .o-maintext-2 {
+
+        margin-top: 200%;
+        left: -125%;
+       
+    }
+
+    .o-maintext-2 img {
+        position: relative;
+        right: 0%;
+        top: 0%;
+    }
+
+    .o-maintext-3 {
+        margin-top: 50%;
+        left: -20%;
+    }
+
+    .o-maintext-3 img {
+        position: relative;
+        right: 0%;
+        top: 0%;
+    }
+
+    .o-maintext-4 {
+        margin-top: 45%;
+        left: -125%;
+    }
+
+    .o-maintext-4 img {
+        position: relative;
+        right: 0%;
+        top: 20%;
+    }
+    
+    .o-social-link {
+        position: relative;
+        margin-left: 0;
+        margin-top: -15%;
+    }
+
+    .hamburger-menu {
+        visibility: visible;
+    }
+
+    .menu_nav {
+        display: none;
+    }
+
+    .tagline {
+        width: 80%;
+        left: 10%;
+    }
+
+    .main-btn {
+        left: 35%;
+    }
+    .main-btn div {
+        width: 30%;   
+    }
+
+    .main-info {
+        width: 100%;
+        left: 0;
+    }
+    .main-info div {
+        width: 25%;
+
+    }
+
+    .focus {
+        margin-top: -5%;
+        height: 200%;
+    }
+
+    .f-text-1 {
+        width: 60%;
+        left: 20%;
+    }
+
+    .f-content div {
+        background-color: white;
+        width: 300px;
+        height: 300px;
+        display: inline-block;
+
+       
+    }
+
+    .f-content div:hover {
+
+        animation: anim 0.5s forwards;
+    }
+    
+    @keyframes anim {
+        0% {
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        100% {
+            width: 320px;
+            height: 320px;
+            border-bottom: 5px solid white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+        
+    }
+
+    .about {
+        height: 140%;
+    }
+
+    .e-img-1 img {
+        margin-top: 20%;
+    }
+
+    .portfolio {
+        height: 330%;
+    }
+
+    .o-content .o-content-1, .o-content-2, .o-content-3, .o-content-4 {
+        width: 250px;
+        height: 370px;
+
+    }
+
+    .p-content {
+        margin-top: 20%;
+    }
+
+    .o-content {
+        margin-top: 30%;
+    }
+
+    .our_team {
+        height: 230%;
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 699px) {
+
+    .for-info {
+        width: 100%;
+        height: 25%;
+        top: 20%;
+    }
+    
+    .o-maintext-1 {
+        width: 150%;
+        margin-top: 500%;
+        left: -70%;
+    }
+
+    .o-maintext-1 img {
+        position: relative;
+        right: 0%;
+        top: 0%;
+    }
+
+    .o-line {
+        visibility: hidden;
+    }
+
+    .o-maintext-2 {
+        width: 150%;
+        margin-top: 350%;
+        left: -20%;
+    }
+
+    .o-maintext-2 img {
+        position: relative;
+        right: 0%;
+        top: 0%;
+    }
+
+    .o-maintext-3 {
+        width: 150%;
+        margin-top: 200%;
+        left: -20%;
+    }
+
+    .o-maintext-3 img {
+        position: relative;
+        right: 0%;
+        top: 0%;
+    }
+
+    .o-maintext-4 {
+        width: 150%;
+        margin-top: 50%;
+        left: -20%;
+    }
+
+    .o-maintext-4 img {
+        position: relative;
+        right: 0%;
+        top: 20%;
+    }
+    
+    .o-social-link {
+        position: relative;
+        margin-left: 0;
+        margin-top: -15%;
+    }
+
+
+    .hamburger-menu {
+        visibility: visible;
+    }
+
+    .header h1 {
+        margin-left: 50%;
+    }
+    .menu_nav {
+        display: none;
+    }
+
+    .tagline{
+        width: 96%;
+        left: 2%;
+    }
+
+    .tagline h1 {
+        font-size: 30px;
+    }
+
+    .main-btn {
+        left: 10%;
+        top: 15%;
+    }
+    .main-btn div {
+        width: 80%;   
+    }
+
+    .main-info {
+        width: 100%;
+        left: 0;
+    }
+    .main-info div {
+        width: 25%;
+
+    }
+
+    .focus {
+        margin-top: -5%;
+        height: 210%;
+    }
+
+    .f-text-1 {
+        width: 60%;
+        left: 20%;
+    }
+
+    .f-content div {
+        background-color: white;
+        width: 200px;
+        height: 300px;
+        display: inline-block;
+
+       
+    }
+
+    .f-content div:hover {
+
+        animation: anim 0.5s forwards;
+    }
+    
+    @keyframes anim {
+        0% {
+            width: 200px;
+            height: 300px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+        100% {
+            width: 220px;
+            height: 320px;
+            border-bottom: 5px solid white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.5);
+        }
+        
+    }
+
+    .about {
+        height: 140%;
+    }
+
+    .e-img-1 img {
+        position: relative;
+        left: 40%;
+        margin-top: 40%;
+        width: 20%;
+        height: 20%;
+    }
+
+    .e-img-1 img:hover {
+        animation: anim3 1s forwards;
+    }
+    
+    @keyframes anim3 {
+        0% {
+            width: 20%;
+            height: 20%;
+            left: 40%;
+        }
+        100% {
+            left: 39%;
+            width: 22%;
+            height: 22%;
+        }
+        
+    }
+
+    .portfolio {
+        height: 330%;
+    }
+
+    .o-content .o-content-1, .o-content-2, .o-content-3, .o-content-4 {
+        width: 250px;
+        height: 370px;
+
+    }
+
+    .p-content {
+        width: 96%;
+        height: 70%;
+        margin-left: 2%;
+        margin-top: 30%;
+        text-align: center;
+    }
+
+    .p-content img {
+        width: 100%;
+    }
+
+    .o-content {
+        margin-top: 60%;
+    }
+
+
+    .o-text-1 {
+        top: 8%;
+        width: 96%;
+
+        font-size: 30px;
+
+        left: 2%;
+    }
+
+    .our_team {
+        height: 300%;
+    }
+
+    .a-content {
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    .a-content img{
+        width: 100%;
+    }
+
+    .footer-main div {
+        width: 200px;
+        height: 300px;
+        margin: 1%;
+    }
+
+    .footer {
+        height: 150%;
+    }
+    .e-text-1 {
+        width: 96%;
+        left: 2%;
+    }
+
+    .scroll {
+        bottom: 10%;
+        right: 10%;
+    }
+}
+

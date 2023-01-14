@@ -1,0 +1,103 @@
+.explore {
+    background-image: url(../images/backgrounds/explore-back.jpg);
+    width: 100%;
+    height: 55%;
+}
+
+.e-text-1 {
+    color: white;
+    font-family: "Montserrat";  
+    font-size: 40px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    text-align: center;
+}
+
+.e-img-1 img {
+    position: relative;
+    left: 46%;
+    margin-top: 6%;
+    width: 8%;
+    height: 8%;
+    
+}
+
+.e-img-1 img:hover {
+    animation: anim3 1s forwards;
+}
+
+@keyframes anim3 {
+    0% {
+        width: 8%;
+        height: 8%;
+        left: 46%;
+    }
+    100% {
+        left: 45%;
+        width: 10%;
+        height: 10%;
+    }
+    
+}
+
+.e-text-2 {
+    color: white;
+    font-family: "Montserrat";  
+    font-size: 20px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    top: 15%;
+    text-align: center;
+}
+
+
+@media (min-width: 1027px) and (max-width: 1249px) {
+    .e-img-1 img {
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1026px) {
+
+    .e-img-1 img {
+        margin-top: 20%;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 699px) {
+
+    .e-img-1 img {
+        position: relative;
+        left: 40%;
+        margin-top: 40%;
+        width: 20%;
+        height: 20%;
+    }
+
+    .e-img-1 img:hover {
+        animation: anim3 1s forwards;
+    }
+    
+    @keyframes anim3 {
+        0% {
+            width: 20%;
+            height: 20%;
+            left: 40%;
+        }
+        100% {
+            left: 39%;
+            width: 22%;
+            height: 22%;
+        }
+        
+    }
+
+    .e-text-1 {
+        width: 96%;
+        left: 2%;
+    }
+}
+
